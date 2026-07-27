@@ -40,15 +40,17 @@ embarked_map = {
 
 embarked = embarked_map[embarked]
 
+# Create FamilySize
+family_size = sibsp + parch + 1
+
 # Create DataFrame
 data = pd.DataFrame({
     "Pclass": [pclass],
     "Sex": [sex],
     "Age": [age],
-    "SibSp": [sibsp],
-    "Parch": [parch],
     "Fare": [fare],
-    "Embarked": [embarked]
+    "Embarked": [embarked],
+    "FamilySize": [family_size]
 })
 
 # Scale
