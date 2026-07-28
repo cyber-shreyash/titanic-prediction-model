@@ -24,6 +24,16 @@ A simple and interactive machine learning web app that predicts whether a Titani
 - scaler.pkl - Saved scaler used for preprocessing
 - requirements.txt - Project dependencies
 
+## 📸 UI Screenshots
+
+To show images of your app interface in the README, place your screenshot files in an images folder and add the following markdown:
+
+```md
+
+![Prediction Page](image1.png)
+![Input Form](image2.png)
+```
+
 ## ▶️ How to Run
 
 1. Install the required packages:
