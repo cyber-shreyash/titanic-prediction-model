@@ -24,15 +24,20 @@ A simple and interactive machine learning web app that predicts whether a Titani
 - scaler.pkl - Saved scaler used for preprocessing
 - requirements.txt - Project dependencies
 
+## 🌐 Live Demo
+
+```
+Live Demo: https://titanic-prediction-model-y3fbvuuv7qthgsmigmeurs.streamlit.app/
+```
+
 ## 📸 UI Screenshots
 
-To show images of your app interface in the README, place your screenshot files in an images folder and add the following markdown:
-
 ```md
-
 ![Prediction Page](image1.png)
 ![Input Form](image2.png)
 ```
+
+Do not wrap these image lines in triple backticks if you want GitHub to render them.
 
 ## ▶️ How to Run
 
